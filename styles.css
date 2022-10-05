@@ -1,0 +1,87 @@
+/* STYLES */
+
+
+/* BASE
+================================= */
+body {
+    background: rgb(209, 180, 199);
+    font-family: 'Inter', sans-serif;
+    color:rgb(46, 0, 30)
+}
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+
+/* TYPOGRAPHY
+================================= */
+h1 {
+    font-size: 90px;
+    line-height: 105%;
+    letter-spacing: 3px;
+    margin: 0 auto;
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(209, 180, 199);
+    background: rgb(163, 59, 127);
+    padding: 30px;
+}
+
+h2 {
+    font-size: 22px;
+    color: rgb(163, 59, 127);
+    border: 2px dotted rgb(163, 59, 127);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    color: rgb(163, 59, 127);
+    margin-top: 90px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 18px;
+    color: rgb(209, 180, 199);
+    background: rgb(163, 59, 127);
+    padding: 2px;
+}
+
+ul {
+    list-style-type: circle;
+    margin-bottom: 90px; 
+}
+
+p {
+    text-indent: 24px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+
+/* LINK
+================================ */
+a:link {
+    color: hotpink;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(163, 59, 127);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: grey;
+    text-decoration: underline;
+}
